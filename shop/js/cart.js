@@ -1,7 +1,7 @@
 // 送料無料になる購入金額
-const freePostagePrice = 5000;
+// const freePostagePrice = 5000;
 // 全国一律送料
-const postagePrice = 1000
+// const postagePrice = 1000
 
 
 // カードアイコンの決済に行くボタン

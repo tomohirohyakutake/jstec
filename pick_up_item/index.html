@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>くすのきのトレイン</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="hero">
+
+            <p class="hero-sell">新発売!<br>NEW TRAIN</p>
+
+            <p class="hero-copy">親から子へ木の温もりを渡したい</p>
+            <h1 class="h1">くすのきの<br>ナチュラルトイ</h1>
+            <img src="images/train-toy.png" alt="" class="hero-img">
+        </div>
+        <section>
+            <img src="images/full-shot-cute-baby-with-toy.jpg" alt="">
+            <div class="card">
+                <h2 class="h2"><span>01</span> 安心、安全の一品を。 </h2>
+
+                <p class="comment">
+                    お子様の成長にあわせた、適切なおもちゃ選び。<br>
+                    『くすのき』では発育途上のお子様にも安心・安全な自然のおもちゃを提供します。<br>
+                    お子様を日々思うご家族の思いをこめたおもちゃをぜひお使いください。<br>
+
+                    私たちは温かみあふれる木製製品を長く愛用してほしいと思い、
+                    心をこめて手作りし、修理も受け付けています。
+                </p>
+            </div>
+        </section>
+        <section>
+            <img src="images/12.jpg_Q90.jpg_.webp" alt="">
+            <div class="card">
+                <h2 class="h2"><span>02</span> さわりたくなる 自然のぬくもり </h2>
+                <p class="comment">
+                    大木である『くすのき』。当社屋号でもある『くすのき』の雄大さ、ぬくもりを当社のオリジナル商品には感じることができます。<br>
+                    </p>
+                <p class="comment">
+                    使うほどに味が出る木の玩具。<br>
+                    木のおもちゃは、たとえば「親が小さいころ大切にしていたものを子どもが使う」といったように、
+                    長く使用してもらえるものだと思います。<br>
+                </p>
+                <p class="comment">
+                    ぜひ多くの皆さまに、当店の玩具を通して木のぬくもりを感じてほしいと思っています。
+                </p>
+            </div>
+        </section>
+        <section>
+            <img src="images/kusunoki_12m17.jpg" alt="">
+            <div class="card">
+                <h2 class="h2" id="postage-free-h2"></h2>
+                <p class="comment">オリジナルショップのみ送料無料サービス。<br>
+                当社の玩具を多くのお客様に提供できるように、当shopご愛顧のお客様には送料無料とさせていただきます。<br>
+                商品購入金額が既定の金額を超える場合は送料は当社負担とし、ご家庭にお届けします。
+                </p>
+            </div>
+        </section>
+        <a href="../shop/index.html" class="to-buy" id="to-buy">購入ページへ</a>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-div">
+            <img src="images/logo.png" alt="">
+            <p>produced by Camphor tree</p>
+        </div>
+
+    </footer>
+    <script src="../shop/js/postage-price.js"></script>
+    <script>
+
+        const freePostH2 = document.getElementById('postage-free-h2');
+        console.log(freePostH2);
+        freePostH2.innerHTML = `<span>03</span> 購入 ${freePostagePrice} 円以上送料無料`;
+
+        const toBuy = document.getElementById("to-buy");
+        console.log(toBuy);
+        console.log(toBuy.clientWidth);
+
+    </script>
+</body>
+
+</html>
